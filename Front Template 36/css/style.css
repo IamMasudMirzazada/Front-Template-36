@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    padding: 0 8rem;
+}
+.header{
+    background-color: #212529;
+    padding: 1rem 0;
+}
+.header .header-all{
+    display: flex;
+    justify-content: space-around;
+
+}
+.header-left{
+    width: 40%;
+}
+.header-left a{
+    color: white;
+    font-size: 20px;
+}
+.header-right{
+   width: 60%;
+   display: flex;
+   justify-content: center;
+}
+.header-right a{
+    color: #6c757d;
+    font-size: 16px;
+}
+.header-right a{
+    margin-left: 15px;
+    font-size: 17px;
+}
+#phone-header .all{
+    display: flex;
+    justify-content:space-between;
+
+}
+#phone-header .all .right{
+         text-align: right;
+  }
+#phone-header .all .right{
+    width: 50%;
+}
+#phone-header .all .left{
+    width: 50%;
+}
+#sec1{
+    background-color: #212529;
+    padding: 6rem 0;
+}
+#sec1 .sec1-all{
+    display: flex;
+    align-items: center;
+}
+#sec1 .sec1-all .sec1-left{
+    width: 45%;
+    
+}
+#phone-header{
+    display: none;
+}
+#sec1 .sec1-all .sec1-left h1{
+    font-size: 48px;
+    color: white;
+    margin-bottom:1rem ;
+}
+#sec1 .sec1-all .sec1-left p{
+    font-size: 22px;
+    color: #b8b9b9;
+    margin-bottom: 3rem;
+    line-height: 30px;
+}
+#sec1 .sec1-all .sec1-left a{
+    padding: 15px 30px ;
+         color: white;
+    border-radius: 5px; 
+    margin-left: 20px;
+    font-size: 20px;
+}
+#sec1 .sec1-all .sec1-left  :nth-child(3){
+    background-color: #0d6efd;
+}
+#sec1 .sec1-all .sec1-left  :nth-child(4){
+    border: 1px solid white;
+}
+#sec1 .sec1-all .sec1-right{
+    width: 50%;
+}
+#sec1 .sec1-right img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+ 
+@media(max-width:576px)
+{
+    .header {
+        background-color: yellow;
+    }
+    .header{
+        display: none;
+    }
+    #phone-header{
+        display: block;
+        padding: 20px 0;
+        background-color: orange;
+    }
+    #phone-header .left a{
+        color: white;
+    }
+    .container{
+        width: 100%;
+        padding:0 2rem;
+    }
+    #sec1  .sec1-left{
+        width: 100% !important;
+        text-align: center;
+    }
+     #sec1   .sec1-right{
+        display: none;
+    }
+
+    #sec1 .sec1-left a{
+        padding: 6px 16px !important;
+    margin-left: 5px !important;
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    }
+}
